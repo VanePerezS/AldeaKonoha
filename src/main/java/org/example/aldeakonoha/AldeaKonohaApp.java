@@ -12,19 +12,7 @@ import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
 
 /**
- * APLICACIÓN PRINCIPAL (AldeaKonohaApp) - Proyecto Final de Graficación Computacional.
- * Responsabilidad: Orquestar, instanciar e integrar todos los subsistemas lógicos y visuales
- * (3D SubScene, 2D Glassmorphic HUD, Audio, Luces, Cámara, Bucle de Animación y Eventos).
- * Actúa como la raíz y cargador principal del ciclo de vida de la aplicación.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Arquitectura de Acoplamiento Débil (Loose Coupling): Coordinación de responsabilidades mediante
- *    clases especializadas independientes, facilitando el mantenimiento y cumplimiento de principios SOLID.
- * 2. Composición de SubScenes: Aislamiento del espacio tridimensional (3D SubScene con cámara de perspectiva
- *    y suavizado antialiasing de hardware) superpuesto sobre un contenedor StackPane 2D que actúa como
- *    cielo degradado y HUD ortogonal.
- * 3. Ciclo de Vida del Software: Control de inicialización (.start) y apagado limpio de hilos paralelos
- *    (hilos de renderizado continuo de AnimationTimer e hilos de decodificación de audio de MediaPlayer).
+ * APLICACIÓN PRINCIPAL (AldeaKonohaApp) 
  */
 public class AldeaKonohaApp extends Application {
 
