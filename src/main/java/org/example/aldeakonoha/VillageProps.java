@@ -9,18 +9,9 @@ import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
 
 /**
- * UTILERÍA DE LA ALDEA (VillageProps) - Proyecto Final de Graficación Computacional.
+ * UTILERÍA DE LA ALDEA (VillageProps) 
  * Responsabilidad: Crear y modelar procedimentalmente objetos 3D decorativos, defensivos y de entrenamiento 
  * utilizando primitivas geométricas (Box, Cylinder, Sphere) con jerarquías complejas y transformaciones afines.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Jerarquía del Grafo de Escena (Scene Graph): Los objetos complejos se crean agregando sub-geometrías
- *    dentro de un Group raíz común. Las transformaciones afines aplicadas a este Group (traslación, rotación, escalado)
- *    son heredadas de manera acumulativa por todos los hijos (nodos hoja), simplificando la manipulación espacial.
- * 2. Transformaciones Afines: Uso de traslaciones vectoriales (.setTranslate), rotaciones angulares en ejes cartesianos
- *    (.getTransforms().add(new Rotate(...))) y escalados proporcionales para situar e inclinar piezas complejas.
- * 3. Luces Puntuales Locales (PointLight): Simulación física de farolas urbanas que emiten luz en 360 grados
- *    desde un foco tridimensional, registradas en un gestor central para su control dinámico día/noche.
  */
 public class VillageProps {
 
