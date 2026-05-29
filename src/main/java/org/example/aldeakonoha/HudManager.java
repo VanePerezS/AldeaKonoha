@@ -12,18 +12,10 @@ import javafx.scene.text.Text;
 import javafx.util.Duration;
 
 /**
- * GESTOR DE INTERFAZ 2D (HudManager) - Proyecto Final de Graficación Computacional.
+ * GESTOR DE INTERFAZ 2D (HudManager)
  * Responsabilidad: Diseñar, actualizar e inyectar la capa 2D translúcida de visualización (HUD)
  * sobre la vista 3D. Controla las guías rápidas, reportes de estado, alertas de proximidad
  * y la caja de diálogos interactiva del personaje principal.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Superposición Ortogonal (HUD Layering): Renderizado de elementos bidimensionales alineados
- *    en una capa paralela sobre la proyección de perspectiva 3D dentro de un StackPane.
- * 2. Detección Dinámica de Distancia Euclidiana: Cálculo en tiempo real del módulo del vector de diferencia
- *    entre la cámara (explorador) y los nodos del escenario en el plano horizontal (XZ).
- * 3. Glassmorphism en CSS de JavaFX: Aplicación de opacidades translúcidas y bordes de realce rojo Akatsuki 
- *    mediante estilos CSS en línea para lograr una estética premium.
  */
 public class HudManager {
 
