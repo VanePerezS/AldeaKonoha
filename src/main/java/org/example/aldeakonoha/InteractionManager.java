@@ -6,17 +6,10 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.StackPane;
 
 /**
- * GESTOR DE ENTRADAS E INTERACCIONES (InteractionManager) - Proyecto Final de Graficación Computacional.
+ * GESTOR DE ENTRADAS E INTERACCIONES (InteractionManager)
  * Responsabilidad: Escuchar, mapear y despachar todos los eventos globales de teclado en la escena.
  * Centraliza la lógica de control para el movimiento continuo, alternado de iluminación,
  * reproducción de sonido, interactividad ninja y ocultado de interfaz.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Controladores por Bandera (Anti-Stutter Input): Mapeo del estado físico de las teclas mediante
- *    KeyPressed (True) y KeyReleased (False). Evita el lag de repetición nativo del sistema operativo,
- *    logrando una latencia cero y fluidez idéntica a la de un motor de videojuegos (Game Engine).
- * 2. Eventos Asíncronos Despachados por Contexto: Captura de comandos especiales como "M" (audio),
- *    "L"/"T" (luz), "C" (modos de cámara) o "F" (acción espacial interactiva con Itachi Uchiha).
  */
 public class InteractionManager {
 
