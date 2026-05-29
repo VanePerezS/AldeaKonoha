@@ -10,17 +10,9 @@ import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
 
 /**
- * ESCENARIO DE LA ALDEA DE KONOHA (KonohaVillage) - Proyecto Final de Graficación Computacional.
+ * ESCENARIO DE LA ALDEA DE KONOHA (KonohaVillage)
  * Responsabilidad: Integrar, distribuir y ensamblar de forma coherente todos los componentes arquitectónicos,
  * hitos monumentales, ríos, puentes y props ornamentales del mapa de Konoha.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Composición Urbana y Distribución Espacial: Disposición ordenada de casas (Minkas), puestos comerciales
- *    y sedes de poder a lo largo de un sistema de coordenadas cartesianas locales.
- * 2. Jerarquía Modular Compleja: Ensamblado procedimental de macroestructuras (como el Edificio del Hokage
- *    y el Puesto de Ramen) utilizando bucles de repetición geométrica (como las barandillas y banquetas).
- * 3. Coordenadas de Referencia para Colisiones/Interacciones: Exposición de vectores tridimensionales
- *    para que otros subsistemas (como HudManager) calculen distancias euclidianas a puntos de interés.
  */
 public class KonohaVillage extends Group {
 
