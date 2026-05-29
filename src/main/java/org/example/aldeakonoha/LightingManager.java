@@ -9,19 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * GESTOR DE ILUMINACIÓN (LightingManager) - Proyecto Final de Graficación Computacional.
+ * GESTOR DE ILUMINACIÓN (LightingManager)
  * Responsabilidad: Configurar y alternar de forma interactiva la atmósfera lumínica de la escena 3D,
  * controlando la luz de ambiente global, la luz direccional del sol/luna y el encendido automático 
  * de las luces de punto (PointLights) de las farolas urbanas de noche.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Balance de Iluminación:
- *    - AmbientLight (Luz de Ambiente): Luz de relleno omnidireccional indirecta. Evita áreas de sombra absoluta
- *      (caras completamente negras) imitando la dispersión de la atmósfera.
- *    - DirectionalLight (Luz Direccional): Simula fuentes de luz infinitamente distantes (como el sol o la luna).
- *      Los rayos viajan paralelos e inciden sobre la geometría esculpiendo contrastes, brillos y volumen.
- *    - PointLight (Luz de Punto): Emisión esférica radial local en 360° desde un punto específico en el espacio.
- * 2. Transición Lumínica en Tiempo Real: Reconfiguración dinámica de las propiedades de color y dirección del scene graph.
  */
 public class LightingManager {
 
