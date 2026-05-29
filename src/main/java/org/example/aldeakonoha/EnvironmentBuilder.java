@@ -14,17 +14,9 @@ import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
 
 /**
- * CONSTRUCTOR DEL ENTORNO (EnvironmentBuilder) - Proyecto Final de Graficación Computacional.
+ * CONSTRUCTOR DEL ENTORNO (EnvironmentBuilder) 
  * Responsabilidad: Diseñar el relieve geográfico, relieve montañoso del fondo y los elementos
  * atmosféricos (cielo, nubes 3D y colinas).
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Efecto Parallax en 3D: Disponer cordilleras en rangos progresivos (capas de profundidad Z)
- *    para dar una sensación cinematográfica de escala infinita en el horizonte.
- * 2. Relieve Orgánico: Romper la planicie matemática mediante colinas hechas de domos y esferas
- *    achatadas y estiradas, simulando colinas naturales en los linderos de la aldea.
- * 3. Gradientes Cromáticos en la Iluminación del Cielo: Uso de LinearGradients interactivos
- *    para simular fotogramas de transición atmosférica diurna, crepuscular o nocturna.
  */
 public class EnvironmentBuilder {
 
