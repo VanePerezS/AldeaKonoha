@@ -8,19 +8,10 @@ import javafx.scene.input.ScrollEvent;
 import javafx.scene.transform.Rotate;
 
 /**
- * CONTROLADOR DE CÁMARA AVANZADO (CameraController) - Proyecto Final de Graficación Computacional.
+ * CONTROLADOR DE CÁMARA AVANZADO (CameraController) -
  * Responsabilidad: Controlar los movimientos interactivos de la cámara en 3D. Soporta dos modos:
  * - FREE (WASD + Q/E + Mouse Orbit + Sprint + Reset + Bird's eye)
  * - EXPO/CINEMATIC (Movimiento automático orbital en grúa alrededor de la plaza para exposición ante jurado).
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Movimiento en Plano de Proyección Horizontal (XZ): Al avanzar (WASD), se calcula el vector horizontal
- *    de la mirada de la cámara usando trigonometría de Yaw (Guiñada), asegurando que el ninja camine
- *    a ras del suelo sin flotar ni enterrarse, independientemente del cabeceo (Pitch).
- * 2. Grados de Libertad (Pitch y Yaw): Rotaciones espaciales en torno a los ejes X (cabeceo) e Y (guiñada)
- *    de forma orbital, con topes angulares para evitar volteos indeseados.
- * 3. Cinemática Automatizada (Grúa Orbital): En Modo Exposición, la cámara anula la entrada del teclado y
- *    calcula su órbita y oscilación vertical mediante ecuaciones sinusoidales de tiempo continuo.
  */
 public class CameraController {
 
