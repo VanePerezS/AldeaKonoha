@@ -5,16 +5,10 @@ import javafx.scene.media.MediaPlayer;
 import java.net.URL;
 
 /**
- * GESTOR DE AUDIO (AudioManager) - Proyecto Final de Graficación Computacional.
+ * GESTOR DE AUDIO (AudioManager) 
  * Responsabilidad: Controlar la carga y reproducción continua de la banda sonora de fondo ninja.
  * Implementa resiliencia extrema: si el archivo de audio local "/audio/background.mp3" no existe,
- * se desactiva el sonido silenciosamente y se permite jugar con total normalidad sin caídas ni crashes.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Resiliencia de Software (Fail-Safe): Captura controlada de excepciones de hardware y de E/S.
- *    Evita interrumpir el hilo principal de renderizado (Application Thread) si falta un recurso secundario.
- * 2. Reproducción Concurrente y Loops: Hilos paralelos gestionados por JavaFX Media Engine que decodifican
- *    el codec MPEG-3 sin ralentizar los fotogramas de la simulación 3D.
+ * se desactiva el sonido silenciosamente y se permite jugar con total normalidad sin caídas ni crashes
  */
 public class AudioManager {
 
