@@ -7,20 +7,9 @@ import javafx.scene.PointLight;
 import javafx.scene.paint.Color;
 
 /**
- * GESTOR DE ANIMACIÓN GLOBAL (AnimationManager) - Proyecto Final de Graficación Computacional.
+ * GESTOR DE ANIMACIÓN GLOBAL (AnimationManager)
  * Responsabilidad: Orquestar todas las simulaciones temporales continuas y físicas en el Grafo de Escena.
  * Corre a ~60 FPS utilizando la API de refresco de pantalla del sistema (AnimationTimer).
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Hilo de Animación y Refresco Sincronizado (AnimationTimer): Bucle de juego desacoplado 
- *    del procesador que se ejecuta sincronizadamente con el refresco de pantalla (V-Sync) 
- *    para evitar efectos de parpadeo (Tearing) y asegurar transiciones suaves.
- * 2. Simulación de Fluídos y Partículas: Cálculo de traslaciones acumulativas por fotograma.
- *    Se aplican envolventes sinusoidales continuas en base a una variable de tiempo absoluto.
- * 3. Modulación de Amplitud (Pulsado de Luz): Alteración en fase sinusoidal de la reflectividad
- *    y la potencia luminosa de las PointLights para imitar el titileo natural de una llama.
- * 4. Interpolación por Estados (Aura Flare Transition): Controlador de animación lineal
- *    que contrae suavemente la escala y color del aura de Itachi tras la activación por tecla.
  */
 public class AnimationManager extends AnimationTimer {
 
