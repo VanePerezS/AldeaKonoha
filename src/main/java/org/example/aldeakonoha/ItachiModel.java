@@ -11,19 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * MODELO 3D AVANZADO DE ITACHI UCHIHA (ItachiModel) - Proyecto Final de Graficación Computacional.
+ * MODELO 3D AVANZADO DE ITACHI UCHIHA (ItachiModel) 
  * Responsabilidad: Modelar al legendario shinobi Itachi Uchiha mediante primitivas complejas,
  * integrando a su vez un sistema de partículas dinámico (Chakra Aura) y cuervos en órbita matemática.
- * 
- * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
- * 1. Modelado por Primitivas Compuestas: Construcción de un personaje humanoide altamente reconocible
- *    ensamblando cajas, cilindros y esferas en lugar de mallas poligonales externas.
- * 2. Simulación Cinética y Orbitación Tangencial: En cada frame, se calcula el vector de posición circular
- *    de los cuervos y se orienta su guiñada (Yaw) a lo largo de la tangente orbital, emulando vuelo real.
- * 3. Sistema de Partículas (Chakra System): Bucle físico de actualización en Y que altera dinámicamente
- *    la traslación, trayectoria espiral trigonométrica y opacidad individual (Alpha blending) de mallas 3D.
- * 4. Materiales Emisivos de Alta Opacidad: Sharingan brillante e interacción por eventos que duplica
- *    la escala cromática del aura física a sus pies.
  */
 public class ItachiModel extends Group {
 
