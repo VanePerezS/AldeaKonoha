@@ -6,10 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * FÁBRICA DE MATERIALES (MaterialFactory) - Proyecto Final de Graficación Computacional.
- * Responsabilidad: Centralizar, configurar y cachear materiales (PhongMaterial) 
- * de manera eficiente para optimizar el rendimiento de la GPU y mantener una estética visual coherente.
- * 
  * CONCEPTOS DE EXPOSICIÓN ACADÉMICA:
  * 1. Patrón Flyweight (Caché): Evita la creación de miles de instancias duplicadas de materiales,
  *    reduciendo el consumo de memoria de video y facilitando el loteado de mallas estáticas.
@@ -27,9 +23,6 @@ public class MaterialFactory {
         initializeMaterials();
     }
 
-    /**
-     * Inicializa y pre-configura la rica paleta de materiales del proyecto.
-     */
     private void initializeMaterials() {
         // --- 1. MATERIALES DE CONSTRUCCIÓN TRADICIONAL JAPONESA (MINKAS) ---
         PhongMaterial wood = new PhongMaterial();
@@ -220,10 +213,6 @@ public class MaterialFactory {
         materials.put("crow", crowPlumage);
     }
 
-    /**
-     * Obtiene un material preconfigurado desde el caché Flyweight.
-     * Si la clave no existe, retorna un material gris de emergencia para no romper el renderizado.
-     */
     public PhongMaterial getMaterial(String key) {
         if (materials.containsKey(key)) {
             return materials.get(key);
